@@ -1,2 +1,2 @@
 # TDprog
-TD de merde
+TD de génie logiciel
