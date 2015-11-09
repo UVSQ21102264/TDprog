@@ -10,7 +10,11 @@ public class Terrain {
 	/**
 	 * constructeur a completer
 	 */
-	public Terrain() {};
+	public Terrain() {
+		this.length = 10;
+		this.width = 10;
+		
+	}
 	
 	public void avancerTous() {
 		for(int i =0; i<listRobot.size();i++) {

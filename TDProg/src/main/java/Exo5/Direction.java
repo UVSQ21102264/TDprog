@@ -4,10 +4,10 @@ public class Direction {
 	private char dir;
 	
 	public void setDir(char direction){
-		if(direction != 'N'|| direction != 'S' || direction != 'W' || direction != 'E') {
+		/*if(direction != 'N'|| direction != 'S' || direction != 'W' || direction != 'E') {
 			throw new IllegalArgumentException();
 		}
-		else this.dir = direction;
+		else*/ this.dir = direction;
 	}
 	
 	public char getDir() {return this.dir;}
